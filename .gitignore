@@ -1,0 +1,42 @@
+# Secrets
+.env
+*.pem
+*.key
+
+# Claude Code personal notes
+CLAUDE.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Data — download via scripts, only keep small merged CSV
+data/toxric/
+data/toxric_full/
+data/kpgt-cache/
+data/toxric_full_classification.csv
+data/toxric_full_merged.csv
+
+# External dependencies (clone via setup.sh)
+external/
+
+# Generated figures
+figures/
+
+# Test output plots
+grid*.png
+heatmap*.png
+mcs*.png
+
+# Streamlit temp output
+toxnav_*/
